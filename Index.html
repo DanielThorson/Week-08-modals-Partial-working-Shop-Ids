@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dank Donuts</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body class="background">
+    <div class="blue">
+        <div class="center"><img src="./Dank_Donuts_Logo.png" alt="Logo of Donut" width="250px"></div>
+        <h4>Making Great Donuts Since Last Tuesday!</h4>
+        <br>
+    </div>
+    <div class="font">
+        
+        <div>
+            <h3>01. Select A Shop Location</h3>
+            <select name="shop"  id="shops" class="dropdown">
+                <option id="" value="BLANK"></option>
+            </select>
+            <script src="./Main.js"></script>
+        </div>
+        <br>
+        <div class="modal">
+            <h1 class="font ">Main Menu</h1>
+            <h3 id="menu-modal">02. Please Make A Selection</h3>
+            <div class="flex center cell">
+                <button class='Subpages-modal-btn'>Create New Shop</button>
+                <button class='Subpages-modal-btn2'>Create New Donut</button>
+                <button  class='Subpages-modal-btn3'>Add Inventory</button>
+                <button  class='Subpages-modal-btn4'>Print Inventory</button>
+                <button  class='Subpages-modal-btn5'>Print Revenue</button>
+                <button  class='Subpages-modal-btn6'>Place Order</button>
+            </div>
+       </div>
+    </div>
+    <div class="smodal" id="subpages-modal">
+        <h1 class="font ">Create Donut Shop</h1>
+        <div class="flex center">
+            <div id="donut_create">
+                <button class="btn2 create_shop">Create Donut Shop</button>
+                <script src="./Create_Shop.js"></script>
+            </div>
+            <div>
+                <button class="Main-Menu-modal-btn">Back To Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="dmodal" id="subpages-modal">
+        <h1 class="font ">Create New Donut</h1>
+        <div class="flex center">
+            <div class="donut_create">
+                <button class="btn2 donut_create">Create New Donut</button>
+                <script src="./Create_New_Donut.js"></script>
+            </div>
+            <div>
+                <button class="Main-Menu-modal-btn2">Back To Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="amodal" id="subpages-modal">
+        <h1 class="font ">Add Inventory</h1>        
+        <div class="flex center">
+            <div>
+                <button class="btn2 donut_add">Add Donuts To Inventory</button>
+                <script src="./Adding_Inventory.js"></script>
+            </div>
+            <br>
+            <div class="flex center">
+                <button  class="Main-Menu-modal-btn3"> Back To Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="imodal" id="subpages-modal">
+        <h1 class="font ">Shop Inventory</h1>
+        <h3 class="center" id="inventory"></h3>
+        <!-- <script src="./Main.js"></script> -->
+        <div class="" id="">
+            <div class="flex center">
+                <button  class="Main-Menu-modal-btn4">Back To Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="rmodal font" id="subpages-modal">
+        <h1 class="font ">Shop Revenue</h1>
+        <h2 class="center" id="revenue"></h2>
+        <div class="">
+            <div class="flex center">
+                <button   class="Main-Menu-modal-btn5">Back To Main Menu</button>
+            </div>
+        </div>
+      </div>
+    <div class="omodal" id="subpages-modal">
+        <h1 class="font ">Place Order</h1>
+        <div class="flex center" >
+            <div id="order">
+                <button class="btn2 place_order">Place Order</button>
+                <script src="./Place_Order.js"></script>
+            </div>
+            <div class="flex center">
+                <button  class="Main-Menu-modal-btn6">Back To Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
+</body>
+</html>

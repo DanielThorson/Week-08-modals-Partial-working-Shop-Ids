@@ -1,0 +1,167 @@
+.header {
+  height: 20%;
+  /* min-height: 10%; */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: #4d4d4d;
+}
+.blue {
+  /* background-color: #0099ff; */
+  background: rgb(0, 122, 204);
+  background: linear-gradient(
+    0deg,
+    rgb(7, 127, 207) 0%,
+    rgb(58, 156, 255) 50%,
+    rgb(7, 127, 207) 100%
+  );
+}
+
+.grey {
+  color: #999999;
+}
+
+.background {
+  background: rgb(227, 227, 227);
+  background: linear-gradient(
+    90deg,
+    rgb(214, 214, 214) 0%,
+    rgba(255, 254, 254, 1) 50%,
+    rgb(214, 214, 214) 100%
+  );
+}
+
+button {
+  color: white;
+  background: #0686db;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 2%;
+  width: 10%;
+  min-width: 200px;
+  max-width: 500px;
+  min-height: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  box-shadow: 0px 5px 10px 1px #bfbfbf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+button:hover {
+  color: #343434;
+  background-color: #cecece;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(140, 140, 140);
+  transition-duration: 50ms;
+  transition-timing-function: ease-in;
+  box-shadow: 0px 5px 10px 1px #9f9f9f;
+}
+
+.btn2 {
+  color: #f1f1f1;
+  background-color: rgb(245, 63, 31);
+  width: 10%;
+  min-width: 200px;
+}
+.btn3 {
+  color: #f1f1f1;
+  background-color: rgb(245, 63, 31);
+  width: 10%;
+  min-width: 200px;
+}
+
+.cell {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  min-width: 40%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: ;
+}
+
+.inline {
+  display: inline-block;
+  justify-content: center;
+}
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+.dropdown {
+ background: rgb(232,232,232);
+ background: linear-gradient(180deg, rgba(232,232,232,1) 0%,          rgba(255,255,255,1) 51%, rgba(232,232,232,1) 100%);
+  border-radius: 5px;
+  width: 17%;
+  min-width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0px 5px 10px 1px #e4e4e4;
+}
+
+
+.modal {
+  display: block;
+}
+
+.smodal{
+  display: none;
+}
+
+.dmodal {
+  display: none;
+}
+
+.amodal {
+  display: none;
+}
+
+.imodal {
+  display: none;
+}
+
+.rmodal {
+  display: none;
+}
+
+.omodal {
+  display: none;
+}
